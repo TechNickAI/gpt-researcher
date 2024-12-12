@@ -20,6 +20,7 @@ const Hero: FC<THeroProps> = ({
   return (
     <div>
       <div className="flex flex-col items-center justify-center">
+        /* Comment out this header
         <div className="landing flex flex-col items-center">
           <h1 className="text-4xl font-extrabold text-center lg:text-7xl">
             Say Goodbye to <br />
@@ -37,6 +38,7 @@ const Hero: FC<THeroProps> = ({
             Say Hello to GPT Researcher, your AI mate for rapid insights and comprehensive research
           </h2>
         </div>
+        */
 
         {/* Input section */}
         <div className="w-full max-w-[708px] pb-6">
